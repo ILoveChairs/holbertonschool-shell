@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pl1 | grep -v / | grep - | wc -l
+find -type d ! -path . | wc -l
