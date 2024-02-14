@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -dc '/:' <<<"$PATH:" | wc -c
+tr -dc "[[:alpha:]]:" <<<"$PATH:" | wc -c
