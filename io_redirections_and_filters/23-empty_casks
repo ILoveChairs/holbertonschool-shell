@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR1s | sed -n 's/0 //p'
+find . -empty 
